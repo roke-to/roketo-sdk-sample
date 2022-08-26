@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and using [@roketo/sdk@0.2.8 package](https://www.npmjs.com/package/@roketo/sdk) for demonstration purposes. Please note that Roketo SDK doesn't require React and can be integrated even in Node.js backend code.
 
+## How to feed the cat
+
+The cat operates in `testnet` NEAR network and wants to be fed with custom `fish.lebedev.testnet` NEP-141 compatible Fungible Token.
+
+In order to get these tokens, do the following:
+
+1. Install `near-cli` using [this guide](https://docs.near.org/tools/near-cli);
+2. Add storage deposit for your account in FISH FT contract by executing the following command, while replacing `YOUR_ACCOUNT_HERE` placeholder with your account id (one-time operation):
+
+```shell
+near call fish.lebedev.testnet storage_deposit '{"account_id":"YOUR_ACCOUNT_HERE","registration_only":true}' --accountId YOUR_ACCOUNT_HERE --deposit 0.00125
+```
+
+3. Mint as many FISH tokens as you want  by executing the following command, while replacing `YOUR_ACCOUNT_HERE` and `AMOUNT` placeholder with your account id and the number of tokens you want to mint (note that the `amount` is specified as a string):
+
+```shell
+near call fish.lebedev.testnet mint '{"account_id":"YOUR_ACCOUNT_HERE","amount":"AMOUNT"}' --accountId YOUR_ACCOUNT_HERE --deposit 0.00125
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

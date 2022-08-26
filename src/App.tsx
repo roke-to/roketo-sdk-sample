@@ -97,6 +97,9 @@ function App({
     <div className="App">
       <header className="App-header">
         <img src={catImage} className="cat" alt="cat" />
+        <p>
+          <a href="https://github.com/roke-to/roketo-sdk-sample#how-to-feed-the-cat">The guide to cat feeding.</a>
+        </p>
         {feedingSpeed !== null ? (
           <>
             <p>Current feeding speed is {feedingSpeed}/{FEEDING_SPEED_THRESHOLD} FISH tokens per second.</p>

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/roketo-sdk-sample/static/css/main.2a650f71.css",
+    "main.js": "/roketo-sdk-sample/static/js/main.84bbf5ef.js",
+    "static/media/fedCat.png": "/roketo-sdk-sample/static/media/fedCat.f135d5559e919459203a.png",
+    "static/media/hungryCat.png": "/roketo-sdk-sample/static/media/hungryCat.6dcd39f8c4175584e088.png",
+    "static/media/defaultCat.png": "/roketo-sdk-sample/static/media/defaultCat.a43797ae1e50212c6f56.png",
+    "index.html": "/roketo-sdk-sample/index.html",
+    "main.2a650f71.css.map": "/roketo-sdk-sample/static/css/main.2a650f71.css.map",
+    "main.84bbf5ef.js.map": "/roketo-sdk-sample/static/js/main.84bbf5ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a650f71.css",
+    "static/js/main.84bbf5ef.js"
+  ]
+}

@@ -1,6 +1,6 @@
 # Feed-a-cat Roketo SDK sample
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and using [@roketo/sdk@0.2.8 package](https://www.npmjs.com/package/@roketo/sdk) for demonstration purposes. Please note that Roketo SDK doesn't require React and can be integrated even in Node.js backend code.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and using [@roketo/sdk@0.2.8 package](https://www.npmjs.com/package/@roketo/sdk/v/0.2.8) for demonstration purposes. Please note that Roketo SDK doesn't require React and can be integrated even in Node.js backend code.
 
 ## How to feed the cat
 
